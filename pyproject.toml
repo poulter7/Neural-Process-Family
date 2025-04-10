@@ -7,5 +7,6 @@ description = "Code for the Neural Processes website and replication of 4 papers
 license = "MIT"
 readme = "README.md"
 
-[tool.setuptools]
-packages = ["npf"]
+[tool.setuptools.packages.find]
+where = [""]  # Base directory to search for packages
+include = ["npf*"]  # Pattern to match package names
