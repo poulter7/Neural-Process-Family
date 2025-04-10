@@ -1,0 +1,8 @@
+# pyproject.toml for the Neural-Process-Family project
+
+[project]
+name = "neural-process-family"
+version = "0.1.0"
+description = "Code for the Neural Processes website and replication of 4 papers on NPs. Pytorch implementation."
+license = "MIT"
+readme = "README.md"
